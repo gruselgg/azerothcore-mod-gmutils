@@ -23,6 +23,7 @@ public:
     {
         if (sConfigMgr->GetOption<bool>("GMUtils.Enable", false))
         {
+            ChatHandler(player->GetSession()).PSendSysMessage("This server is running the GMUtils module.");
             ChatHandler(player->GetSession()).PSendSysMessage(HELLO_WORLD);
         }
     }
