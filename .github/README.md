@@ -1,7 +1,6 @@
-# SKELETON - Module template
+# GMUtils
 
-[English](README.md) | [Español](README_ES.md)
-
+Add more GM utilities to the game.
 
 ## How to create your own module
 
@@ -10,7 +9,6 @@
 1. Do not hesitate to compare with some of our newer/bigger/famous modules.
 1. Edit the `README.md` and other files (`include.sh` etc...) to fit your module. Note: the README is automatically created from `README_example.md` when you use the script `create_module.sh`.
 1. Publish your module to our [catalogue](https://github.com/azerothcore/modules-catalogue).
-
 
 ## How to test your module?
 

@@ -1,17 +1,18 @@
 #
 # Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+# Copyright (C) 2024+ Grusel <www.github.com/gruselgg>
 #
 
 [worldserver]
 
 ########################################
-# My module configuration
+# GMUtils configuration
 ########################################
 #
-#    MyModule.Enable
-#        Description: Enable my module and print "Hello World" message at server start
+#    GMUtils.Enable
+#        Description: Enable GMUtils
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 1
+GMUtils.Enable = 1
